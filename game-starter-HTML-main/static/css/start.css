@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  background: url("../img/background.svg") center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+
+#start-app {
+  background: rgba(3, 16, 30, 0.6);
+  padding: 28px;
+  border-radius: 12px;
+  min-width: 320px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.6);
+}
+
+.center {
+  text-align: center;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 12px auto;
+  width: 240px; /* slightly bigger */
+}
+
+#logo {
+  width: 240px;
+}
+
+input {
+  padding: 10px;
+  width: 220px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+button {
+  background: #3b82f6;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+button:hover {
+  background: #2563eb;
+}
+
+.error-msg {
+  color: #ff6464;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+/* Modal */
+.modal.hidden { display: none; }
+.modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.modal-content {
+  background: #fff;
+  color: #111;
+  width: 90%;
+  max-width: 520px;
+  padding: 18px;
+  border-radius: 8px;
+  position: relative;
+}
+.modal-close {
+  all: unset;             /* Remove all default button styles */
+  position: absolute;
+  right: 10px;
+  top: 6px;
+  font-size: 22px;
+  cursor: pointer;
+  background: transparent !important;
+  color: #111;
+  line-height: 1;
+  padding: 4px;           /* small clickable area */
+}
+
+.modal-close:hover {
+  opacity: 0.6;           /* simple hover effect */
+}
+.help-btn {
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.1);
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight:700;
+}

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>ChronoQuest Main</title>
+  <link rel="stylesheet" href="../static/css/main.css">
+</head>
+<body>
+  <header>
+    <img id="logo" class="main-logo" src="../static/img/chronoquest-logo.png" alt="ChronoQuest Logo">
+    <div class="header-controls">
+      <button id="btnHowTo" class="help-btn">HOW TO PLAY</button>
+      <button id="btnBuyRange" class="help-btn">BUY RANGE</button>
+    </div>
+  </header>
+
+  <div id="status-bar">
+    <span id="player-name">Name: Player</span>
+    <span id="credits">Credits: 1000</span>
+    <span id="range">Range: 1000</span>
+    <span id="shards">Shards: 0/5</span>
+  </div>
+
+  <div id="game-container">
+    <div id="map-wrapper">
+      <img id="map" src="../static/img/map.svg" alt="Map">
+      <!-- markers will be appended here -->
+    </div>
+
+    <div id="sidebar" class="hidden" aria-hidden="true">
+      <h3 id="sidebar-title">Airport Info</h3>
+      <div id="airport-info">Select an airport to see details.</div>
+      <button id="btnTravel">Travel Here</button>
+    </div>
+  </div>
+
+<!-- Modal -->
+<div id="modal" class="modal hidden">
+  <div class="modal-content">
+    <button id="modal-close" class="modal-close" aria-label="Close">&times;</button>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
+  <script src="../static/js/main.js"></script>
+</body>
+</html>

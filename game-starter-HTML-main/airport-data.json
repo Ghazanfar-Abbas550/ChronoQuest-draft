@@ -1,0 +1,13 @@
+[
+  { "name": "Helsinki-Vantaa Airport", "ICAO": "EFHK", "country": "Finland", "distance": 0 },
+  { "name": "Stuttgart Airport", "ICAO": "EDDS", "country": "Germany", "distance": 1411 },
+  { "name": "Riga International Airport", "ICAO": "EVRA", "country": "Latvia", "distance": 2015 },
+  { "name": "Stavanger Airport", "ICAO": "ENZV", "country": "Norway", "distance": 757 },
+  { "name": "Amsterdam Airport Schiphol", "ICAO": "EHAM", "country": "Netherlands", "distance": 735 },
+  { "name": "Brussels Airport", "ICAO": "EBBR", "country": "Belgium", "distance": 843 },
+  { "name": "Pescara Airport", "ICAO": "LIPE", "country": "Italy", "distance": 1474 },
+  { "name": "Naples Airport", "ICAO": "LIRN", "country": "Italy", "distance": 1901 },
+  { "name": "Oslo Airport", "ICAO": "ENGM", "country": "Norway", "distance": 876 },
+  { "name": "Trondheim Airport", "ICAO": "ENTC", "country": "Norway", "distance": 1695 },
+  { "name": "Porto Airport", "ICAO": "LPFR", "country": "Portugal", "distance": 2133 }
+]
